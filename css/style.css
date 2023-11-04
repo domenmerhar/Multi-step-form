@@ -1,4 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Ubuntu:wght@400;500;700&display=swap");
+.form-progress {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .form-progress__list {
+    margin: 1rem;
+    list-style: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 95%;
+    margin: 0px 0px;
+    background-image: url("../assets/images/bg-sidebar-desktop.svg");
+    padding-top: 10rem;
+    display: flex;
+    flex-direction: column; }
+  .form-progress__item {
+    display: inline-block; }
+  .form-progress__step {
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid #bfe2fd;
+    padding: 1.5rem 1.75rem;
+    color: #bfe2fd; }
+
 html {
   font-size: 62.5%;
   font-family: "Hanken Grotesk", sans-serif;
@@ -18,7 +45,7 @@ body {
 
 .main-container {
   width: 70vw;
-  height: 70vh;
+  height: 65vh;
   background-color: #fafbff;
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
   border-radius: 2rem;

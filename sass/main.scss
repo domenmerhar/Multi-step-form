@@ -1,4 +1,14 @@
-@import "_form-progress.scss";
+@import "_variables";
+
+@import "_utils";
+
+@import "form-steps/_form-step-1";
+@import "form-steps/_form-step-2";
+@import "form-steps/_form-step-3";
+@import "form-steps/_form-step-4";
+
+@import "_form-progress";
+
 @import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Ubuntu:wght@400;500;700&display=swap");
 
 html {
@@ -22,7 +32,7 @@ body {
 
 .main-container {
   width: 70vw;
-  height: 70vh;
+  height: 65vh;
   background-color: $alabaster;
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
   border-radius: 2rem;
