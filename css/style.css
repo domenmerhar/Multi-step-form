@@ -3,6 +3,16 @@
   color: #02295a !important;
   background-color: #bfe2fd; }
 
+.heading-primary {
+  font-size: 2.4rem;
+  font-weight: 800;
+  letter-spacing: 1px; }
+
+.heading-subtext {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #9699ab; }
+
 .form-progress {
   width: 30%;
   height: 100%;
@@ -21,7 +31,8 @@
     padding-top: 10rem;
     display: flex;
     flex-direction: column;
-    gap: 3.2rem; }
+    gap: 3.2rem;
+    border-radius: 2rem; }
   .form-progress__item {
     display: flex;
     gap: 1rem;
