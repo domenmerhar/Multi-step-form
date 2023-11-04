@@ -1,4 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Ubuntu:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Ubuntu:wght@300;400;500;700&display=swap");
+.highlighted {
+  color: #02295a !important;
+  background-color: #bfe2fd; }
+
 .form-progress {
   width: 30%;
   height: 100%;
@@ -16,15 +20,38 @@
     background-image: url("../assets/images/bg-sidebar-desktop.svg");
     padding-top: 10rem;
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    gap: 3.2rem; }
   .form-progress__item {
-    display: inline-block; }
+    display: flex;
+    gap: 1rem;
+    align-items: center; }
   .form-progress__step {
     display: inline-block;
     border-radius: 50%;
     border: 1px solid #bfe2fd;
-    padding: 1.5rem 1.75rem;
-    color: #bfe2fd; }
+    width: 3.5rem;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    text-align: center;
+    color: #bfe2fd;
+    font-size: 1.6rem; }
+  .form-progress__step-info {
+    display: flex;
+    flex-direction: column;
+    color: #fafbff;
+    text-transform: uppercase; }
+    .form-progress__step-info * {
+      margin: 0; }
+  .form-progress__heading {
+    display: inline-block;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 1.2rem; }
+  .form-progress__title {
+    display: inline-block;
+    font-weight: 800;
+    letter-spacing: 2px; }
 
 html {
   font-size: 62.5%;
